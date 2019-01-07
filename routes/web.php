@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/sendemails','SendEmailController@sendEmails')->name('sendemails');
+
+Route::get('/queueemails','SendEmailController@queueEmails')->name('queueemails');
