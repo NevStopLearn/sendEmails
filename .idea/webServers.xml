@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="414aad66-8957-405d-95af-33d13f0b8633" name="sendcloud" url="http://39.104.97.255">
+        <fileTransfer host="39.104.97.255" port="22" rootFolder="/www/wwwroot/default/crontab" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
